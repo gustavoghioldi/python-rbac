@@ -1,0 +1,16 @@
+services:
+  auth:
+    users:
+      path: /api/users
+      actions:
+        create: POST
+        delete: DELETE
+        edit: PUT
+        read: GET
+    merchants:
+      path: /api/merchants
+      actions:
+        create: POST
+        delete: DELETE
+        edit: PUT
+        read: GET
